@@ -11,7 +11,7 @@ async def homepage(request):
 #     return JSONResponse({"other": "page"})
 
 app = Starlette(debug=True, routes=[
-    Route("/", homepage)])
+     Route("/", homepage)])
 
 if __name__ == "__main__":
     import uvicorn
