@@ -8,7 +8,7 @@ mcp = FastMCP("sse-demo")
 #add mcp tools
 @mcp.tool()
 def add(a: int, b: int) -> int:
-    """_Add two numbers"""
+    """_Add two numberss"""
     return a + b
 
 @mcp.tool()
